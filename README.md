@@ -1,6 +1,6 @@
-# CSASS
+# Drastic.ASS
 
-This is an ASS library for C# that can read and write ASS files. You can also use karaoke with syllables or letters.
+This is a fork of CSASS, an ASS library for C# that can read and write ASS files. You can also use karaoke with syllables or letters.
 
 How to use it
 -
