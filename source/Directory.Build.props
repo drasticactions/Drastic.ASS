@@ -3,7 +3,31 @@
         <LangVersion>preview</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>0.0.1</Version>
+        <Company>Drastic Actions</Company>
+        <Copyright>Copyright (C) Drastic Actions</Copyright>
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="../../README.md" Pack="true" PackagePath="" Visible="false" />
+      <None Include="../../favicon.png" Pack="true" PackagePath="" Visible="false" />
+    </ItemGroup>
+
+    <PropertyGroup>
+      <Authors>$(Company)</Authors>
+      <PackageTags>ass subtitle parser reader writer</PackageTags>
+      <PackageProjectUrl>https://github.com/drasticactions/Drastic.ASS</PackageProjectUrl>
+      <PackageReleaseNotes>https://github.com/drasticactions/Drastic.ASS/blob/main/CHANGELOG.md</PackageReleaseNotes>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+      <PackageIcon>favicon.png</PackageIcon>
+      <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+      <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+      <PublishRepositoryUrl>true</PublishRepositoryUrl>
+      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+      <DebugType>embedded</DebugType>
+    </PropertyGroup>
+
     <ItemGroup>
         <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.354">
 			<PrivateAssets>all</PrivateAssets>
